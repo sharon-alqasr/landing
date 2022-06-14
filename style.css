@@ -1,0 +1,63 @@
+/* Write some CSS below */
+H1{
+	color: white;
+	font-family: 'Overpass', sans-serif;
+}
+
+H2{
+	font-family: 'Overpass', sans-serif;
+}
+H3{
+	font-family: 'Overpass', sans-serif;
+}
+p{
+	font-family: 'Overpass', sans-serif;
+	font-weight: light;
+}
+img{
+	border-radius: 5px;
+	width: 300px;
+}
+.banner{
+	background-image: url(images/background.jpg);
+	text-align: center;
+	padding: 150px 0px;
+}
+
+#grey-subtitle{
+	color: grey;
+}
+
+.btn-blue{
+	color: white;
+	text-decoration: none;
+	background-color: mediumpurple;
+	padding: 10px 30px;
+	border-radius: 4px;
+}
+
+.container{
+	width: 900px;
+	margin: auto;
+	padding: 30px 0px;
+}
+.card-white{
+	box-shadow: 4px 2px 10px #b7b7b7;
+	border-radius: 5px;
+	padding: 60px;
+	width: 300px;
+	margin: auto;
+
+}
+.footer{
+	background-color: #404042;
+	padding: 50px 0px;
+}
+#footer-text{
+	color: white;
+}
+.cards-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
